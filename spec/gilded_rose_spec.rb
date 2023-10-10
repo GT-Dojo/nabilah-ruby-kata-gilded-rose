@@ -17,5 +17,14 @@ describe GildedRose do
       expect(items[0].quality).to eq 98
     end
 
+    context 'when item is not Aged Brie, Sulfuras or Backstage passes' do
+      it 'item reduce by 1 when sellIn> 0 and quality >0' do
+        items = [Item.new('foo', 1, 100)]
+        described_class.new(items).update_quality
+        expect(items[0].quality).to eq 99
+      end
+    end
+
+
   end
 end
