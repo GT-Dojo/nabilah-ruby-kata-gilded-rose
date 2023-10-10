@@ -61,6 +61,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-darwin-22
 
 DEPENDENCIES
   rspec (~> 3.12)
@@ -69,4 +70,4 @@ DEPENDENCIES
   simplecov
 
 BUNDLED WITH
-   2.4.7
+   2.4.19
