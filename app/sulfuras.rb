@@ -8,6 +8,3 @@ class Sulfuras < Item
   end
 
 end
-
-# s = Sulfuras.new
-# puts s.to_s
