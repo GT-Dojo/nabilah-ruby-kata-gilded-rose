@@ -18,7 +18,3 @@ class Item
   end
 
 end
-
-# i = Item.new("foo",-5,1)
-# i.update
-# puts i.to_s
