@@ -45,10 +45,5 @@ class Item
     "#{@name}, #{@sell_in}, #{@quality}"
   end
 
-  def update
-    @sell_in -= 1
-    @sell_in < 0 ? @quality -= 2 : @quality -= 1
-    @quality < 0 ? @quality = 0 : @quality
-  end
 end
 
